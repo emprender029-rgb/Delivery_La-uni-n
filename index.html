@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17191b">
+<title>Delivery La Unión | Pide tu servicio</title>
+<meta name="description" content="Solicita delivery, compras y encargos en La Unión, Bajo Piura. Cotiza tu servicio y coordina por WhatsApp.">
+<style>
+:root{--dark:#17191b;--yellow:#ffc928;--green:#10b85e;--paper:#f6f6f3;--ink:#22252a;--muted:#646a70}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);line-height:1.5}a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:var(--dark);color:#fff;box-shadow:0 4px 20px #0002}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:13px 0}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;font-size:19px;line-height:1.05}.brand .logo{font-size:34px}.brand small{display:block;color:var(--yellow);font-size:12px;letter-spacing:1.6px}nav{display:flex;gap:20px}nav a{text-decoration:none;font-size:14px}.btn{border:0;border-radius:999px;padding:13px 20px;display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--green);color:#fff;text-decoration:none;font-weight:800;cursor:pointer;font-size:15px}.btn.dark{background:var(--dark)}.btn.yellow{background:var(--yellow);color:#17191b}.hero{color:#fff;background:radial-gradient(ellipse at 80% 30%,#5e6659 0,transparent 38%),linear-gradient(110deg,#17191b 0%,#292d2c 60%,#7b6a50 100%);padding:76px 0}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:35px}.eyebrow{color:var(--yellow);text-transform:uppercase;font-weight:800;letter-spacing:2px;font-size:13px}.hero h1{font-size:clamp(42px,6vw,68px);line-height:1.02;margin:14px 0}.hero h1 span{color:var(--yellow)}.hero p{font-size:18px;color:#ececec;max-width:570px}.hero .btn{margin-top:12px}.visual{min-height:280px;display:grid;place-items:center;text-align:center;border:1px solid #ffffff36;border-radius:28px;background:linear-gradient(145deg,#ffffff12,#00000030);padding:25px}.visual .bike{font-size:105px}.visual strong{display:block;font-size:25px;color:var(--yellow)}.visual p{font-size:14px;margin:6px 0}.trust{display:flex;gap:18px;flex-wrap:wrap;margin-top:25px;font-size:13px}.trust span:before{content:"✓ ";color:var(--yellow);font-weight:900}
+section{padding:55px 0}.title{text-align:center;font-size:31px;line-height:1.15;margin:0 0 8px}.sub{text-align:center;color:var(--muted);max-width:650px;margin:0 auto 28px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:var(--paper);border-radius:18px;padding:20px;text-align:center;border:2px solid transparent;cursor:pointer;transition:.15s}.card:hover,.card:focus{border-color:var(--yellow);transform:translateY(-2px);outline:none}.card .icon{font-size:34px}.card h3{margin:8px 0 3px;font-size:16px}.card p{font-size:13px;color:var(--muted);margin:0}
+.order{background:#f4f4f1}.order-grid{display:grid;grid-template-columns:1fr .8fr;gap:24px;align-items:start}.formbox,.infobox{background:#fff;border-radius:20px;padding:25px;box-shadow:0 8px 28px #11108}.formbox h2,.infobox h2{margin-top:0}.field{margin:14px 0}.field label{display:block;font-weight:750;font-size:14px;margin-bottom:6px}.field input,.field select,.field textarea{width:100%;font:inherit;padding:12px 13px;border:1px solid #cfd2d3;border-radius:10px;background:#fff;color:#202327}.field textarea{min-height:85px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{outline:2px solid #f1c32e;border-color:#f1c32e}.hint{font-size:12px;color:var(--muted)}.infobox{background:var(--dark);color:#fff}.infobox li{margin:10px 0}.infobox li::marker{color:var(--yellow)}.price-row{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid #ddd}.price-row strong{white-space:nowrap}.price-note{font-size:12px;color:#666}.coverage{display:grid;grid-template-columns:1fr 1fr;gap:20px}.coverage-card{padding:25px;border-radius:18px;background:var(--paper)}.coverage-card h3{margin-top:0}.cta{background:var(--yellow);padding:32px 0}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}.cta h2{margin:0;font-size:28px}.cta p{margin:4px 0 0}footer{background:var(--dark);color:#fff;padding:25px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.foot p{margin:5px 0;color:#ddd}.small{font-size:12px;color:#777}
+@media(max-width:780px){nav{display:none}.hero{padding:50px 0}.hero-grid,.order-grid,.coverage{grid-template-columns:1fr}.visual{min-height:220px}.cards{grid-template-columns:repeat(2,1fr)}.cta-inner{align-items:flex-start;flex-direction:column}.title{font-size:27px}}
+@media(max-width:420px){.brand{font-size:16px}.brand .logo{font-size:28px}.hero h1{font-size:43px}.cards{gap:9px}.card{padding:16px 10px}.formbox,.infobox{padding:19px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#inicio"><span class="logo">🏍️</span><span>DELIVERY<small>LA UNIÓN</small></span></a>
+<nav><a href="#servicios">Servicios</a><a href="#pedido">Hacer pedido</a><a href="#tarifas">Tarifas</a><a href="#cobertura">Cobertura</a></nav>
+<a class="btn wa-link" href="#pedido">WhatsApp ↗</a>
+</div></header>
+<main>
+<section class="hero" id="inicio"><div class="wrap hero-grid">
+<div><div class="eyebrow">Delivery local · Bajo Piura</div><h1>Llevamos lo que <span>necesitas.</span></h1><p>¿No tienes tiempo para salir? Recogemos tus compras, comida, documentos y encargos. Completa el pedido y coordinamos contigo.</p><a class="btn" href="#pedido">🛵 Solicitar delivery</a><div class="trust"><span>Atención personalizada</span><span>Precio acordado antes</span><span>Pedidos por WhatsApp</span></div></div>
+<div class="visual"><div><div class="bike">🛵</div><strong>Tu pedido, en buenas manos</strong><p>La Unión y zonas cercanas</p></div></div>
+</div></section>
+<section id="servicios"><div class="wrap"><h2 class="title">¿Qué necesitas enviar?</h2><p class="sub">Toca una opción para seleccionarla y luego completa tu pedido.</p>
+<div class="cards">
+<div class="card" role="button" tabindex="0" data-service="Comida y bebidas"><div class="icon">🍔</div><h3>Comida y bebidas</h3><p>Pedidos de restaurantes y tiendas.</p></div>
+<div class="card" role="button" tabindex="0" data-service="Compras y encargos"><div class="icon">🛒</div><h3>Compras y encargos</h3><p>Mercado, tiendas y otros productos.</p></div>
+<div class="card" role="button" tabindex="0" data-service="Documentos"><div class="icon">📄</div><h3>Documentos</h3><p>Sobres y papeles.</p></div>
+<div class="card" role="button" tabindex="0" data-service="Paquetes pequeños"><div class="icon">📦</div><h3>Paquetes pequeños</h3><p>Entrega de artículos y paquetes.</p></div>
+</div></div></section>
+<section class="order" id="pedido"><div class="wrap"><h2 class="title">Solicita tu delivery</h2><p class="sub">Llena los datos. Al tocar “Enviar pedido”, se abrirá WhatsApp con el mensaje listo para enviar.</p>
+<div class="order-grid"><form class="formbox" id="orderForm">
+<h2>📝 Datos del pedido</h2>
+<div class="field"><label for="name">Tu nombre</label><input id="name" name="name" placeholder="¿Cómo te llamas?" required></div>
+<div class="field"><label for="service">Tipo de servicio</label><select id="service" name="service" required><option value="">Selecciona un servicio</option><option>Comida y bebidas</option><option>Compras y encargos</option><option>Documentos</option><option>Paquetes pequeños</option><option>Otro encargo</option></select></div>
+<div class="field"><label for="pickup">Dirección de recojo</label><input id="pickup" name="pickup" placeholder="Lugar donde recogemos el pedido" required></div>
+<div class="field"><label for="dropoff">Dirección de entrega</label><input id="dropoff" name="dropoff" placeholder="¿Dónde lo llevamos?" required></div>
+<div class="field"><label for="details">Detalle del pedido</label><textarea id="details" name="details" placeholder="Qué hay que comprar o entregar, referencias, etc."></textarea></div>
+<div class="field"><label for="when">¿Cuándo lo necesitas?</label><select id="when" name="when"><option>Lo antes posible</option><option>Coordinar una hora</option></select></div>
+<div class="field"><label for="phone">Tu teléfono (opcional)</label><input id="phone" name="phone" type="tel" placeholder="Número de contacto"></div>
+<button class="btn" type="submit">Enviar pedido por WhatsApp ↗</button>
+<p class="hint">El pedido no se envía automáticamente: WhatsApp se abrirá para que revises y envíes el mensaje.</p>
+</form>
+<aside class="infobox" id="tarifas"><h2>📍 Zonas y tarifas</h2><p>Tarifas iniciales de ejemplo; confírmalas antes de publicar.</p><div class="price-row"><span>Dentro de La Unión</span><strong>S/ 3–5</strong></div><div class="price-row"><span>Bellavista / Bernal / Vice</span><strong>S/ 5–8</strong></div><div class="price-row"><span>Otras zonas</span><strong>Consultar</strong></div><p class="hint" style="color:#d3d3d3">El precio final se acuerda antes del viaje, según distancia, espera y tipo de encargo.</p><hr style="border-color:#ffffff25;margin:22px 0"><h3>Cómo funciona</h3><ol><li>Elige el servicio y completa los datos.</li><li>Envíanos el pedido por WhatsApp.</li><li>Confirmamos disponibilidad y tarifa.</li><li>Realizamos el recojo y la entrega acordados.</li></ol></aside>
+</div></div></section>
+<section id="cobertura"><div class="wrap"><h2 class="title">Zona de cobertura</h2><p class="sub">Consulta disponibilidad si tu destino está fuera de estas zonas.</p><div class="coverage"><div class="coverage-card"><h3>📌 Atendemos en</h3><p>La Unión y alrededores, Bellavista, Bernal y Vice.</p></div><div class="coverage-card"><h3>🤝 Para negocios y familias</h3><p>Podemos coordinar entregas de compras, comida, documentos y paquetes pequeños. Los artículos deben ser legales y permitidos para transporte.</p></div></div></div></section>
+<section class="cta"><div class="wrap cta-inner"><div><h2>¿Listo para hacer tu pedido?</h2><p>Completa el formulario y coordina directamente con nosotros.</p></div><a class="btn dark" href="#pedido">Pedir ahora ↑</a></div></section>
+</main>
+<footer><div class="wrap foot"><div><strong>🏍️ DELIVERY LA UNIÓN</strong><p>Tu pedido, en buenas manos.</p></div><div><strong>Zona</strong><p>La Unión, Bajo Piura, Perú</p></div><div><strong>Contacto</strong><p>Pedidos por WhatsApp</p></div><div><p>© <span id="year"></span> Delivery La Unión</p></div></div></footer>
+<script>
+// CAMBIA este número por el WhatsApp del negocio. Perú: 51 + número, solo dígitos.
+const WHATSAPP_NUMBER = "51999999999";
+document.getElementById("year").textContent = new Date().getFullYear();
+document.querySelectorAll("[data-service]").forEach(card => {
+  const selectCard = () => { document.getElementById("service").value = card.dataset.service; document.getElementById("pedido").scrollIntoView({behavior:"smooth"}); };
+  card.addEventListener("click", selectCard);
+  card.addEventListener("keydown", e => { if(e.key === "Enter" || e.key === " ") { e.preventDefault(); selectCard(); }});
+});
+document.getElementById("orderForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  if (WHATSAPP_NUMBER === "51999999999") {
+    alert("Antes de recibir pedidos, el dueño debe editar el archivo y reemplazar el número de WhatsApp de ejemplo por su número real.");
+    return;
+  }
+  const d = new FormData(this);
+  const msg = [
+    "Hola, quiero solicitar un servicio de DELIVERY.",
+    "Nombre: " + d.get("name"),
+    "Servicio: " + d.get("service"),
+    "Recojo: " + d.get("pickup"),
+    "Entrega: " + d.get("dropoff"),
+    "Detalle: " + (d.get("details") || "No especificado"),
+    "Cuándo: " + d.get("when"),
+    "Teléfono: " + (d.get("phone") || "No indicado")
+  ].join("\n");
+  window.location.href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(msg);
+});
+document.querySelectorAll(".wa-link").forEach(a => a.addEventListener("click", e => { if(WHATSAPP_NUMBER === "51999999999"){e.preventDefault();document.getElementById("pedido").scrollIntoView({behavior:"smooth"});} else {a.href="https://wa.me/"+WHATSAPP_NUMBER;} }));
+</script>
+</body>
+</html>
